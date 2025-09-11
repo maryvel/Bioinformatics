@@ -130,6 +130,8 @@ def writecsv(inputfile, header):
             """
             #MGJV
             if ((x/sum<=0.05 and y/sum<=0.05) or (x/sum<=0.05 and z/sum<=0.05) or (y/sum<=0.05 and z/sum<=0.05)):
+                continue
+            else:
                 pass
 
         ########only 1 base for the ALT sequence
@@ -179,6 +181,8 @@ def writecsv(inputfile, header):
             """
             #MGJV
             if ((x/sum<=0.05 and y/sum<=0.05) or (x/sum<=0.05 and z/sum<=0.05) or (y/sum<=0.05 and z/sum<=0.05)):
+                continue
+            else:
                 pass
 
 
